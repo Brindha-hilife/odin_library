@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden; 
+}
+.sideone{
+    background-image: url('images/img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.mainone{
+    background-color: #000000;
+}
+.head{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 3px 3px 6px #fff;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.card{
+    height: 350px;
+    background-color: transparent !important;  
+    box-shadow: 0 0 10px;
+    text-shadow: 1px 1px 2px #000000;
+    letter-spacing: 1.5px;
+    color: #fff;
+}
+.card-header{
+    text-align: center;
+    font-weight: 600;
+}
+input{
+    box-shadow: 0 0 10px #000000 !important;
+    color: #560764 !important;
+    font-weight: 600 !important;
+}
+.input-group-text{
+    box-shadow: 0 0 10px;
+    background-color: transparent !important;
+}
+input::placeholder{
+    color: #560764 !important;
+    opacity: 0.6 !important;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.faicon{
+    color: #560764 !important;
+}
+.para{
+    font-weight: 400;
+}
+.btn-primary{
+    background-color: transparent !important;
+    border: none !important;
+}
+.btnone{
+    box-shadow: 0 0 10px green;
+    color: green !important;
+}
+.btntwo{
+    box-shadow: 0 0 10px red;
+    color: red !important;
+}
+.faadd{
+    color: green;
+    box-shadow: 0 0 10px #9bb67c;
+}
+.fadelete{
+    color: red;
+    box-shadow: 0 0 10px red;
+}
+table{
+    box-shadow: 0 0 10px #fff;
+    letter-spacing: 1.5px;
+}
+th{
+    color: #fff;
+    text-shadow: 1px 1px 2px #fff;
+}
+td{
+    color: green;
+    text-shadow: 1px 1px 2px green;
+}
+
+
+
